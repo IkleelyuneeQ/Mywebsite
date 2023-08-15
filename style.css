@@ -1,0 +1,169 @@
+.col1,.col2 {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.row1,.row2,.row3 {
+    justify-content: center;
+}
+
+.hero {
+       background-color: aliceblue;
+       padding: 80px;
+       padding-bottom: 20px;
+       padding-top: 16px;      
+}
+
+.col p {
+    color: rgba(0, 0, 0, 0.487);
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+h1 {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 48px;
+    font-weight: 800;
+    color: ;
+}
+
+h3 {
+    font-size: 20px;
+    color: rgb(96, 114, 131);
+} 
+
+.pro-pic {
+    border-radius: 10%;
+    margin-bottom: 16px;
+    max-width: 120px;
+
+}
+
+.col button, .others > button {
+    border: 0;
+    background-color: rgb(30, 143, 243);
+    border-radius: 5px;
+    margin-top: 12px;
+    padding: 4px;
+}
+
+button > a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.summary {
+    color: rgb(53, 55, 57);
+}
+
+
+.experience {
+    background-color: white
+    padding: 80px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+
+.skill {
+    background-color:aliceblue;
+    padding: 80px;
+    padding-bottom: 20px;
+    padding-top: 40px;
+}
+
+.others {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding: 80px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.wexp {
+    text-align: center;
+}
+
+.skicert {
+    text-align: center;
+}
+
+.blueshirt,.invstrength,.oysroma {
+    background-color: aliceblue;
+    max-width: 400px;
+    padding: 16px;
+    border-radius: 10px;
+}
+
+.row {
+    gap: 24px;
+    padding: 16px;
+}
+
+.footer {
+    text-align: center;
+    background-color:rgb(30, 143, 243);
+    padding: 80px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.page {
+    margin-top: 12px;
+    margin-bottom: 16px;
+   
+}
+
+.in {
+    text-decoration: none;
+}
+
+.contact {
+    margin-bottom:10px ;
+}
+
+@media (width < 768px) {
+    .experience {
+        padding: 16px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    
+    .skill {
+        padding: 16px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    
+    .others {
+        padding: 16px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    
+    .footer {
+        padding: 16px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    .hero {
+        padding: 16px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        
+ }
+}
+
+@media (width < 576px) {
+    .col1,.col2 {
+        width: 100%;
+        text-align: center;
+     }
+
+     .blueshirt,.invstrength,.oysroma {
+        text-align: center;
+    }
+    
+}
+
